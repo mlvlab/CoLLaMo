@@ -1,0 +1,36 @@
+# Local / large paths (project-specific)
+MoleculeSTM
+model_architecture
+data
+misc_codes
+.vscode
+all_checkpoints
+
+# Python bytecode & caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ML / experiment artifacts
+wandb/
+lightning_logs/
+runs/
+*.pt.bak
+config_file/
+evaluation/
+
+# Local cache version markers (regenerated)
+outdated_cache_ogb
+outdated_cache_outdated
+*.sh
+*.toml

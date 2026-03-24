@@ -1,0 +1,11 @@
+[tool.ruff]
+target-version = "py38"
+line-length = 100
+
+[tool.ruff.lint]
+# Long lines are common in ML configs and strings; format still wraps where possible.
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"llamo/__init__.py" = ["F403", "F401"]
+"utils/__init__.py" = ["F403", "F401"]
