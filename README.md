@@ -76,9 +76,9 @@ If you have any questions, please create an issue on this repository or contact 
 If you find our work interesting, please consider giving a ⭐ and citation.
 ```bibtex
 @inproceedings{park2024llamo,
-  title={LLaMo: Large Language Model-based Molecular Graph Assistant},
-  author={Park, Jinyoung and Bae, Minseong and Ko, Dohwan and Kim, Hyunwoo J},
-  booktitle={NeurIPS},
-  year={2024}
+  title={Improving Large Molecular Language Model via Relation-aware Multimodal Collaboration},
+  author={Park, Jinyoung and Bae, Minseong and Na, Jeehye and Kim, Hyunwoo J},
+  booktitle={AAAI},
+  year={2026}
 }
 ```
